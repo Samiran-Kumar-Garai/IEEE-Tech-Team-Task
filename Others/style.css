@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    margin:10%;
+    border-radius: 7%;
+    padding:5%;
+    flex-wrap: wrap;
+    
+}
+fieldset{
+    border: none;
+    height: 30%;
+    border-radius: 5%;
+    padding:3%;
+    margin:5%;
+}
+fieldset,.form,.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+img.logo, img.t-shirt{
+    max-width: 150px;
+}
+input[type="text"]{
+    width: 90%;
+}
+input[type="submit"]{
+    display:inline;
+    margin-left: 10%;
+    width:30%
+}
