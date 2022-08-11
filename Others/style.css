@@ -17,10 +17,11 @@ h2{
 }
 fieldset{
     border: none;
-    height: 30%;
+    height: 35%;
     border-radius: 5%;
-    padding:3%;
-    margin:5%;
+    box-sizing: border-box;
+    padding:5%;
+    background-color: rgb(252, 227, 198);
 }
 fieldset,.form,.image{
     display: flex;
@@ -31,10 +32,19 @@ img.logo, img.t-shirt{
     max-width: 150px;
 }
 input[type="text"]{
-    width: 90%;
+    width: 85%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 input[type="submit"]{
     display:inline;
     margin-left: 10%;
     width:30%
+}
+a{
+    text-decoration: none;
+}
+details{
+    font-size: large;
+    font-weight: 100;
 }
